@@ -25,9 +25,3 @@ document.write('... <script>alert(document.domain)</script> ...');
 
 -- jhaddix image of all xss routes
 https://raw.githubusercontent.com/jhaddix/XSS.png/master/XSS2.png
-
-
-
-
---From OWASP
-https://www.owasp.org/index.php/Testing_for_Cross_site_scripting
