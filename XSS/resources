@@ -1,1 +1,19 @@
---
+--Add resources from web here
+
+reddit.com/r/xss
+
+--Cheat sheet with multiple examples of events and scripts
+https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+
+
+-- jhaddix image of all xss routes
+https://raw.githubusercontent.com/jhaddix/XSS.png/master/XSS2.png
+
+
+--From OWASP
+https://www.owasp.org/index.php/Testing_for_Cross_site_scripting
+
+--portswigger course with labs
+https://portswigger.net/web-security/all-materials
+
+
